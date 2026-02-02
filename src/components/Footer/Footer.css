@@ -1,0 +1,13 @@
+footer .btn-outline-light {
+    transition: all 0.2s ease;
+}
+
+footer .btn-outline-light:hover {
+    background-color: #667eea;
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+footer .text-primary {
+    color: #667eea !important;
+}

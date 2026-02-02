@@ -1,0 +1,27 @@
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+@media (max-width: 768px) {
+    .hero-section .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section .text-start {
+        text-align: center !important;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1.5rem;
+    }
+}

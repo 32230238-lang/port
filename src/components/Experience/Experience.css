@@ -1,0 +1,17 @@
+#experience .card-title {
+    font-weight: 600;
+    color: #333;
+}
+
+#experience ul {
+    padding-left: 1.25rem;
+}
+
+#experience ul li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+#experience ul li:last-child {
+    margin-bottom: 0;
+}

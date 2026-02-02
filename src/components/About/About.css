@@ -1,0 +1,12 @@
+#about .lead {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+#about .btn {
+    transition: transform 0.2s ease;
+}
+
+#about .btn:hover {
+    transform: translateY(-2px);
+}

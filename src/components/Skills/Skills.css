@@ -1,0 +1,11 @@
+#skills .card-title {
+    font-weight: 600;
+}
+
+#skills .list-unstyled li {
+    transition: padding-left 0.2s ease;
+}
+
+#skills .list-unstyled li:hover {
+    padding-left: 0.5rem;
+}
